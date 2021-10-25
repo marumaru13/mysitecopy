@@ -148,7 +148,8 @@ button:hover{
 
 @media screen and (max-width: 750px) {
  .title{
-     font-size: 55px;
+     font-size: 50px;
+     text-align: center;
      /* word-break: break-all; */
  } 
  .text{
@@ -168,6 +169,35 @@ button:hover{
     
  .pchide{
      display: block;
+ }
+ .text1{
+     font-size: 10px;
+     margin: 2%;
+ }
+
+ .title2{
+     margin: 0%;
+ }
+ .mimet{
+     margin: 5%;
+     width: 80%;
+     height: auto;
+     
+ }
+
+ .delimmo{
+    margin: 5%;
+    width: 80%;
+    height: auto;
+
+ }
+ .contents{
+     text-align: center;
+ }
+
+ .Me{
+     width: 80%;
+     height: auto;
  }
 }
 
