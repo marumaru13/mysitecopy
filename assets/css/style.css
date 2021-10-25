@@ -142,7 +142,7 @@ button:hover{
     background-color: pink;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 750px) {
  .title{
      font-size: 55px;
  } 
