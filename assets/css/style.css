@@ -1,0 +1,164 @@
+header{
+    background-color: rgb(240, 131, 59);
+    height: 45px;
+    
+  }
+.header {
+   display: flex;
+   align-items: center;
+}
+
+.header img {
+    width: 40px;
+    height: 5px auto;
+    /* margin-top: 10px; */
+}
+
+span{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.title{
+    font-size: 80px;
+    color: green;
+}
+
+.text{
+    font-size: 65px;
+    color: greenyellow;
+}
+
+.section1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title2{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    margin-left: 20px;
+}
+
+.p{
+    font-size: 30px;
+}
+
+.mimet{
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.delimmo{
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    border-radius: 10%;
+}
+
+.main {
+    height: 100vh;
+} 
+
+.section1{
+    height: 100%;
+    width: 100%;
+    background-image: url(../imgs/IMG_0224\ 2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section2{
+    display: flex;
+    justify-content: space-around;
+    background-color: khaki;
+}
+.contents p {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    text-align: center;
+}
+caption{
+    font-size: 40px;
+    margin-top: 30px;
+    font-family: 'Ephesis', cursive;
+}
+
+.Me{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+td{
+    padding: 10px 40px;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.text1{
+    margin: 18px 20px;
+}
+.contents{
+    margin: 100px;
+}
+.contents2{
+    margin-top: 60px;
+}
+
+footer{
+    background-color: rgb(240, 131, 59);
+    font-size: 20px; 
+    text-align: center;
+    
+}
+
+button{
+    padding: 8px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: orange;
+    border-radius: 2px;
+    display: block;
+    margin-left: auto;
+}
+button:hover{
+    background-color: pink;
+    }
+
+.section3{
+    background-color: pink;
+}
+
+@media screen and (max-width: 780px) {
+ .title{
+     font-size: 55px;
+ } 
+ .text{
+     font-size: 30px;
+ }
+ .section2{
+     width: 100%;
+     flex-direction: column;
+     align-items: center;
+
+ }
+ .profile{
+     width: 100%;
+     flex-direction: column-reverse;
+     align-items: center;
+ }
+    
+}
